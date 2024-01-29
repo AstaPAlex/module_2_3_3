@@ -6,14 +6,22 @@
     <copyLibs>true</copyLibs>
     <option name="thirdPartyClasspath" />
     <option name="activeLocationIds">
-      <option value="bc2c9043-aa4e-4ac9-a9b6-0b1fa62c89cc" />
+      <option value="758e319e-f2dc-436c-8ca3-063ef9640ac3" />
     </option>
     <option name="locations">
       <list>
         <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
         <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="758e319e-f2dc-436c-8ca3-063ef9640ac3" type="LOCAL_FILE" scope="All" description="CheckStyle">
+          $USER_HOME$/Downloads/Telegram Desktop/google_checks.xml
+          <option name="properties">
+            <map>
+              <entry key="org.checkstyle.google.suppressionxpathfilter.config" value="" />
+            </map>
+          </option>
+        </ConfigurationLocation>
         <ConfigurationLocation id="bc2c9043-aa4e-4ac9-a9b6-0b1fa62c89cc" type="LOCAL_FILE" scope="All" description="YuriCheck">
-          C:/work/google_checks_1_2.xml
+          $PROJECT_DIR$/../../../../work/google_checks_1_2.xml
           <option name="properties">
             <map>
               <entry key="org.checkstyle.google.suppressionxpathfilter.config" value="" />
